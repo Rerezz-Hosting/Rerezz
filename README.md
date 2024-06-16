@@ -36,26 +36,26 @@ OM REREZ GANTENG 😬😬
          <img src="https://feeldreams.github.io/peach11.gif" id="fotostiker2"/>
          <img src="https://feeldreams.github.io/peachhug.gif" id="fotostiker3"/>
      </div>
-     <p id="halo" class="halo">Hai, Kamu!</p>
+     <p id="halo" class="halo">Hai, Kamu salwa</p>
      <!-- Konten Pesan Setelah Aksi -->
      <p id="halo2" class="halo sty2">Aku mau ngomong sesuatu</p>
-     <p id="halo3" class="halo sty3">Sebenarnya aku suka sama kamu 😁😁 <3</p>
+     <p id="halo3" class="halo sty3">Sebenarnya aku gabisa lupain kamu 😁😁 <3</p>
      <!-- Tanggal Otomatis Sesuai Hari Ini --><p id="tanggal" class="halo sty3"></p>
      
      <!-- Konten Pesan Akhir -->
      <p id="kalimatbawah">I Love You ❤️</p> 
-     <p id="kalimatbawah2" class="sembunyi">Tapi gak jadi dehh😁</p> 
-     <p id="kalimatbawah3" class="sembunyi">Soalnya kamu belum mandi Bau🤮</p>
-     <p id="kalimatbawah3" class="sembunyi">Canda canda hhe maaf</p>
+     <p id="kalimatbawah2" class="sembunyi">aku minta maaf ya sama kamu kalo aku banyak salah sama kamu</p> 
+     <p id="kalimatbawah3" class="sembunyi">aku sayang banget sama kamu </p>
+     <p id="kalimatbawah3" class="sembunyi">Aku ga mau kamu pergi sebener nya</p>
        
      <div><blockquote id='bq' data-text='&#9829;'>
 
        <!-- Konten Pembukaan -->
-       <p id="kalimat">Aku Cuma Mau Bilang Nih..</p>
-       <p id="kalimatb">Sebelumnya, Makasii yaa Udah mau baca ini</p>
-       <p id="kalimatc">Baca sampe abis yaa 😁</p>
-       <p id="kalimatd">Sebenarnya kamu bau belom mandi</p>
-       <p id="kalimate">Tapi kalo kamu udah mandi gak bau lagi</p>
+       <p id="kalimat">Tapi ya kamu dah gada rasa vuat aku</p>
+       <p id="kalimatb">Makasih atas semuanya </p>
+       <p id="kalimatc">Aku sayang vanget sama kamu </p>
+       <p id="kalimatd">tapi aku sadarr kok</p>
+       <p id="kalimate">Kamu udah gak ada rasa buat aku </p>
        <p id="kalimatf">Klik LOVE di Samping Kiri ya!</p>
        
        <p id="opsL">Klik untuk Lanjut</p>
