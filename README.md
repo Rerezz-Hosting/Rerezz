@@ -1,39 +1,43 @@
-<!DOCTYPE html>
+IM REREZ HOSTING
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rerez Hosting</title>
+    <title>REREZ HOSTING DIGITAL MARKETPLACE</title>
 </head>
 
 <body>
     <nav>
-        <a href="https://wa.me/6285216955233">Home</a> |
-        <a href="https://wa.me/6285216955233">Download CV</a> |
-        <a href="https://wa.me/6285216955233">Contact</a> |
-        <a href="https://wa.me/6285216955233">About me</a>
+        <a href="https://wa.me/6285216955233">WHATSAPP ME</a> |
+        <a href="https://t.me/rerez_x_hosting">TELEGRAM ME</a> |
+        <a href="https://www.youtube.com/@RerezHosting">MY CHANEL</a> |
+        <a href="https://linktr.ee/rerezz.hosting">MY WEBSITE</a>
     </nav>
 
     <hr />
 
-    <div>
-        <h1>Contact Me</h1>
-        <form>
-            <label for="email">Email</label><br />
-            <input type="email" name="email" placeholder="alamat email"/>
-            <br />
-            <label for="message">Pesan</label><br />
-            <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
-            <br />
-            <br />
-            <input type="submit" value="Kirim" />
-        </form>
-    </div>
+    <article>
+        <h1>About Me</h1>
+        <p>
+            Hi, saya Rerez Hosting, Developer Bot WhatsApp
+        </p>
+        <p>
+            Saya Menyediakan berbagai macam kebutuhan bot WhatsApp
+        </p>
+        <p>
+            Hubungi saya jika anda minat membeli kebutuhan bot WhatsApp
+        </p>
+        <p>
+            <video controls>
+                <source src="https://f.uguu.se/lSNgdsMe.mp4" type="video/webm"/>
+            </video>
+        </p>
+    </article>
 
     <hr>
     <footer style="text-align: center;">
-        <p>Copyright &copy; Reeez Hosting.</p>
+        <p>REREZ HOSTING DIGITAL MARKETPLACE</p>
     </footer>
 </body>
 </html>
