@@ -49,7 +49,7 @@ IM REREZ HOSTING
   	<div class="wp"><img id="imgempat" src="https://feeldreams.github.io/maukahkamu/wpempat.jpg"/></div>
       <img class="stiker fade-in" src="https://feeldreams.github.io/bunga.gif"/>
       <h2 class="title"><i>Intinya,</i></h2>
-      <p class="slide-right"><b>Kamu Mau Gak<br>Jadi Pacar Aku? 😍❤️</b></p>
+      <p class="slide-right"><b>Kamu Mau Gak<br>Jadi Pacar Aku? 😁😁</b></p>
       <div id="Tombol">
        <a id="By" onClick="fungsimau()">Mau</a>
        <a id="Bn" onClick="fungsigamau()">Gamau</a>
