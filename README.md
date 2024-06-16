@@ -63,7 +63,7 @@ OM REREZ GANTENG 😬😬
      </blockquote></div>
 
      <!-- Tombol Kirim Pesan -->
-     <div id="Tombol"><a id="By">&#128140; Balas</a></div>
+     <div id="Tombol"><a href="https://wa.me/6285216955233?text=Bang+Rere*+I+Love+You+wakakakak">&#128140; Balas</a></div>
 
      <!-- Pesan yang dikirim ke WhatsApp -->
      <span id="pesanWA" class="sembunyi">Aww, Happy I love you!</span>
