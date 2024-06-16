@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmad Muhardian Personal Website</title>
+    <title>Rerez Hosting</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
 
     <hr>
     <footer style="text-align: center;">
-        <p>Copyright &copy; 2020 Ahmad Muhardian.</p>
+        <p>Copyright &copy; Reeez Hosting.</p>
     </footer>
 </body>
 </html>
