@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Toko Kami</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Muhardian Personal Website</title>
 </head>
 
 <body>
-    <h1>Toko Kami</h1>
-    <p>Selamat datang di toko kami! Kami menjual berbagai macam kebutuhan bot WhatsApp.</p>
-    <h2>Produk Terbaru</h2>
-    <ul>
-        <li>VPS DIGITAL OCEAN - Rp 50.000</li>
-        <li>PANEL PETRODACTYL - Rp 10.000</li>
-        <li>SECRIP BOT WHATSAPP- Rp 50.000</li>
-    </ul>
-    <h2>Cara Pembayaran</h2>
-    <p>Anda bisa menghubungi saya di WhatsApp 6285216955233.</p>
-</body>
+    <nav>
+        <a href="https://wa.me/6285216955233">Home</a> |
+        <a href="https://wa.me/6285216955233">Download CV</a> |
+        <a href="https://wa.me/6285216955233">Contact</a> |
+        <a href="https://wa.me/6285216955233">About me</a>
+    </nav>
 
+    <hr />
+
+    <div>
+        <h1>Contact Me</h1>
+        <form>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" placeholder="alamat email"/>
+            <br />
+            <label for="message">Pesan</label><br />
+            <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Kirim" />
+        </form>
+    </div>
+
+    <hr>
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2020 Ahmad Muhardian.</p>
+    </footer>
+</body>
 </html>
