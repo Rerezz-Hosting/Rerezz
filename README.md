@@ -29,6 +29,12 @@ IM REREZ HOSTING
             Hubungi saya jika anda minat membeli kebutuhan bot WhatsApp
         </p>
         <p>
+        <nav>
+        <a href="https://wa.me/6285216955233">WHATSAPP ME</a> |
+        <a href="https://t.me/rerez_x_hosting">TELEGRAM ME</a> |
+        <a href="https://www.youtube.com/@RerezHosting">MY CHANEL</a> |
+        <a href="https://linktr.ee/rerezz.hosting">MY WEBSITE</a>
+    </nav>
             <video controls>
                 <source src="https://f.uguu.se/lSNgdsMe.mp4" type="video/webm"/>
             </video>
