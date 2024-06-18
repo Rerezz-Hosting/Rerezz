@@ -1,70 +1,68 @@
-IM REREZ HOSTING 
-<html lang="en">
+const sideMenu = document.querySelector("aside");
+const profileBtn = document.querySelector("#profile-btn");
+const themeToggler = document.querySelector(".theme-toggler");
+const nextDay = document.getElementById('nextDay');
+const prevDay = document.getElementById('prevDay');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmad Muhardian Personal Website</title>
-</head>
+profileBtn.onclick = function() {
+    sideMenu.classList.toggle('active');
+}
+window.onscroll = () => {
+    sideMenu.classList.remove('active');
+    if(window.scrollY > 0){document.querySelector('header').classList.add('active');}
+    else{document.querySelector('header').classList.remove('active');}
+}
 
-<body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="cv-dian.pdf">Download CV</a> |
-        <a href="contact.html">Contact</a> |
-        <a href="about.html">About me</a>
-    </nav>
+themeToggler.onclick = function() {
+    document.body.classList.toggle('dark-theme');
+    themeToggler.querySelector('span:nth-child(1)').classList.toggle('active')
+    themeToggler.querySelector('span:nth-child(2)').classList.toggle('active')
+}
 
-    <hr />
+let setData = (day) =>{
+    document.querySelector('table tbody').innerHTML = ' '; //To clear out previous table data;  
+    let daylist = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    document.querySelector('.timetable div h2').innerHTML = daylist[day];
+    switch(day){
+        case(0): day = Sunday; break;
+        case(1): day = Monday; break;
+        case(2): day = Tuesday; break;
+        case(3): day = Wednesday; break;
+        case(4): day = Thursday; break;
+        case(5): day = Friday; break;
+        case(6): day = Saturday; break;
+    }
 
-    <header style="text-align: center;">
-        <img src="image/foto-profile.jpg" width="200" height="200" style="border-radius: 50%;"/>
-        <h1>Ahmad Muhardian</h1>
-        <p>(Web Developer)</p>
-    </header>
+    day.forEach(sub => {
+        const tr = document.createElement('tr');
+        const trContent = `
+                            <td>${sub.time}</td>
+                            <td>${sub.roomNumber}</td>
+                            <td>${sub.subject}</td>
+                            <td>${sub.type}</td>
+                        `
+        tr.innerHTML = trContent;
+        document.querySelector('table tbody').appendChild(tr)                        
+    });
+}
 
-    <hr />
+let now = new Date();
+let today = now.getDay(); // Will return the present day in numerical value; 
+let day = today; //To prevent the today value from changing;
 
-    <article style="text-align: center;">
-        <h2>Overview</h2>
-        <p>
-            Hi, saya adalah web developer yang berdomisili di Jakarta.
-            Saat ini sedang belajar HTML di Petani Kode
-        </p>
-    </article>
+function timeTableAll(){
+    document.getElementById('timetable').classList.toggle('active');
+    setData(today);
+    document.querySelector('.timetable div h2').innerHTML = "Today's Timetable";
+}
+nextDay.onclick = function() {
+    day<=5 ? day++ : day=0;  // If else one liner
+    setData(day);
+}
+prevDay.onclick = function() {
+    day>=1 ? day-- : day=6;    
+    setData(day);
+}
 
-    <div style="max-width: 600px; margin: 3em auto">
-        <table border="1" width="100%">
-            <thead>
-                <tr>
-                    <th>Skill</th>
-                    <th>Pengalaman</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <ul>
-                            <li>HTML (Expert)</li>
-                            <li>CSS (Beginner)</li>
-                            <li>Javascript (Beginner)</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Freelancer di Internet</li>
-                            <li>Leader Local Linux Community</li>
-                            <li>Leader Local Linux Community</li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <hr>
-    <footer style="text-align: center;">
-        <p>Copyright &copy; 2020 Ahmad Muhardian.</p>
-    </footer>
-</body>
-</html>
+setData(day); //To set the data in the table on loading window.
+document.querySelector('.timetable div h2').innerHTML = "Today's Timetable"; //To prevent overwriting the heading on loading;
