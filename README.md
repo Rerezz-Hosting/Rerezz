@@ -1,31 +1,70 @@
-IM REREZ HOSTING
+IM REREZ HOSTING 
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REREZ HOSTING DIGITAL MARKETPLACE</title>
+    <title>Ahmad Muhardian Personal Website</title>
 </head>
 
 <body>
-<div id="bodyblur">
-     <!-- Wallpaper --><img src="https://feeldreams.github.io/wp9.jpg" id="wallpaper"/><div id="beneranblur"></div>
-   </div>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="cv-dian.pdf">Download CV</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About me</a>
+    </nav>
+
     <hr />
 
-    <article>
-        <h1>CATATAN</h1>
-        <p>Hai Saya Rerez Hosting 
-            Saya Adalah salah satu Developer BOT WHATSAPP
-            Jika kalian minat membeli kebutuhan bot WhatsApp bisa langsung hubungi saya di WhatsApp
-            <a href="https://wa.me/6285216955233">WHATSAPP ME</a>
-        </p>
+    <header style="text-align: center;">
+        <img src="image/foto-profile.jpg" width="200" height="200" style="border-radius: 50%;"/>
+        <h1>Ahmad Muhardian</h1>
+        <p>(Web Developer)</p>
+    </header>
+
+    <hr />
+
+    <article style="text-align: center;">
+        <h2>Overview</h2>
+        <p>
+            Hi, saya adalah web developer yang berdomisili di Jakarta.
+            Saat ini sedang belajar HTML di Petani Kode
         </p>
     </article>
 
+    <div style="max-width: 600px; margin: 3em auto">
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Pengalaman</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>HTML (Expert)</li>
+                            <li>CSS (Beginner)</li>
+                            <li>Javascript (Beginner)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Freelancer di Internet</li>
+                            <li>Leader Local Linux Community</li>
+                            <li>Leader Local Linux Community</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
     <hr>
     <footer style="text-align: center;">
-        <p>REREZ HOSTING DIGITAL MARKETPLACE</p>
+        <p>Copyright &copy; 2020 Ahmad Muhardian.</p>
     </footer>
 </body>
 </html>
