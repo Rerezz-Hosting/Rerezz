@@ -3,4 +3,4 @@ Name :<a href="https://wa.me/6282312436896">REREZ HOSTING 📡</a></p>
 Email : <a href="rerezhosting@gmail.com">rerezhosting@gmail.com</a></p>
 Hoby : <a href="https://rerezz-hosting.github.io/Rerezz">Coading</a></p>
 Telegram : <a href="https://t.me/rerez_x_hosting">Rerez Hosting</a></p>
-My Group : <a href="[https://chat.whatsapp.com/EfzkOpdP5zjHa9H15NrzF1](https://chat.whatsapp.com/GJOnm1pcQZQKHyXBUUwiX0)">MY FRIENDS</a></p>
+My Group : <a href="https://chat.whatsapp.com/EfzkOpdP5zjHa9H15NrzF1 ">XYREZZ TEAM</a></p>
