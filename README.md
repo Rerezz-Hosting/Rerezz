@@ -4,7 +4,7 @@
    <head>
       <meta charset="utf-8">
       <title>Digital Clock with Glowing Effect | CodingNepal</title>
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="jam.css">
    </head>
    <body>
       <div class="wrapper">
