@@ -1,20 +1,30 @@
+<html> 
+<head>
+<title>Jam Digital | SolusiCoding</title>
+<script>
+function startTime() {
+    var today=new Date();
+    var h=today.getHours();
+    var m=today.getMinutes();
+    var s=today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('jam').innerHTML = h+":"+m+":"+s;
+    var t = setTimeout(function(){startTime()},500);
+}
 
-<!DOCTYPE html
-Bahasa Indonesia:
-  <kepala>
-    <judul>Jam Digital</judul>
-    <link rel="lembar gaya" href="gaya.css">
-  </kepala>
-  <tubuh>
-    <div kelas="jam">
-      <div kelas="waktu">
-        <span class="jam"></span>
-        <span kelas="pemisah">:</span>
-        <span class="menit"></span>
-        <span kelas="pemisah">:</span>
-        <span class="detik"></span>
-      Bahasa Indonesia:
-    Bahasa Indonesia:
-    <script src="script.js"></script>
-  </tubuh>
-Bahasa Indonesia:        
+function checkTime(i) {
+    if (i<10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+<body onload="startTime()">
+<center>
+<br>
+<br>
+Jam Digital Real Time di HTML
+<div id="jam"></div>
+</center>
+</body>
+</html>
